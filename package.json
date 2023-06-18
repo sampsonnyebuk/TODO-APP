@@ -9,11 +9,16 @@
   },
   "dependencies": {
     "async_hooks": "^1.0.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
     "if-env": "^1.0.4",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.0",
     "react-cookie": "^4.1.1",
     "react-cookies": "^0.1.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "nodemon": "^2.0.22",
     "react-scripts": "^5.0.1"
   }
