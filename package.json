@@ -1,0 +1,20 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "built": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "server": "node ./server/controller.js",
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "async_hooks": "^1.0.0",
+    "if-env": "^1.0.4",
+    "react-cookie": "^4.1.1",
+    "react-cookies": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "react-scripts": "^5.0.1"
+  }
+}
